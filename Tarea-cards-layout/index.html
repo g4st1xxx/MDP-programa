@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+ <!--Tarea
+    1_ el header va a tener un logo y un menu
+    2_ un main con dos secciones, un contenido central y un aside
+    El main sera una galeria de productos, donde cada carta
+    debera tener una imagen, descripcion, precio, botones de añadir
+    al carrito y "me gusta"
+    aside con cualquier hover
+    3_ un footer con dos partes, por un lado un formulario de subscripcion,
+    y por el otro, botones de redes sociales.-->
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="style.css" rel="stylesheet">
+  <link href="cards.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+  <script src="script.js" defer></script>
+  <title>Document</title>
+</head>
+<body>
+  <div class="grid-container">
+    <header>
+      <h1><a href=".">Market</a></h1>
+    </header>
+    <nav>
+      <p>Categories</p>
+      <li><a href="#film">Film & Cinema</a></li>
+      <li><a href="#books">Books & Reading</a></li>
+      <li>Games & Consoles</li>
+      <li>Food & Drink</li>
+      <li>World News</li>
+      <li>Outdoor Living</li>     
+    </nav>
+    <article>
+      <h2>Sales</h2>
+      <hr>
+      <div class="cards">
+        <div class="card">
+          <img src="Imagenes/imagen-carta.jpeg" alt="imagen" class="card__image">
+          <div class="card__content">
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. </p>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. </p>
+          </div>
+          <div class="card__info">
+            <div>
+              <i class="material-symbols-outlined">thumb_up</i>310
+            </div>
+            <div>
+              <a href="." class="card__link">View Article</a>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <img src="Imagenes/imagen-carta.jpeg" alt="imagen" class="card__image">
+          <div class="card__content">
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. </p>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. </p>
+          </div>
+          <div class="card__info">
+            <div>
+              <i class="material-symbols-outlined">thumb_up</i>310
+            </div>
+            <div>
+              <a href="." class="card__link">View Article</a>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <img src="Imagenes/imagen-carta.jpeg" alt="imagen" class="card__image">
+          <div class="card__content">
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. </p>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. </p>
+          </div>
+          <div class="card__info">
+            <div>
+              <i class="material-symbols-outlined">thumb_up</i>310
+            </div>
+            <div>
+              <a href="." class="card__link">View Article</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <h2 id="film">Film & Cinema</h2>
+      <hr>
+      <div class="cards">
+        <div class="card">
+          <img src="Imagenes/vagabond.jpeg" alt="imagen" class="card__image">
+          <div class="card__content">
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. </p>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. </p>
+          </div>
+          <div class="card__info">
+            <div>
+              <i class="material-symbols-outlined">thumb_up</i>310
+            </div>
+            <div>
+              <a href="." class="card__link">View Article</a>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <img src="Imagenes/vagabond.jpeg" alt="imagen" class="card__image">
+          <div class="card__content">
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. </p>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. </p>
+          </div>
+          <div class="card__info">
+            <div>
+              <i class="material-symbols-outlined">thumb_up</i>310
+            </div>
+            <div>
+              <a href="." class="card__link">View Article</a>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <img src="Imagenes/vagabond.jpeg" alt="imagen" class="card__image">
+          <div class="card__content">
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. </p>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. </p>
+          </div>
+          <div class="card__info">
+            <div>
+              <i class="material-symbols-outlined">thumb_up</i>310
+            </div>
+            <div>
+              <a href="." class="card__link">View Article</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <h2 id="books">Books & Reading</h2>
+      <hr>
+      <div class="cards">
+        <div class="card">
+          <img src="Imagenes/archivos.jpg" alt="imagen" class="card__image">
+          <div class="card__content">
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. </p>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. </p>
+          </div>
+          <div class="card__info">
+            <div>
+              <i class="material-symbols-outlined">thumb_up</i>310
+            </div>
+            <div>
+              <a href="." class="card__link">View Article</a>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <img src="Imagenes/archivos.jpg" alt="imagen" class="card__image">
+          <div class="card__content">
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. </p>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. </p>
+          </div>
+          <div class="card__info">
+            <div>
+              <i class="material-symbols-outlined">thumb_up</i>310
+            </div>
+            <div>
+              <a href="." class="card__link">View Article</a>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <img src="Imagenes/archivos.jpg" alt="imagen" class="card__image">
+          <div class="card__content">
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. </p>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. </p>
+          </div>
+          <div class="card__info">
+            <div>
+              <i class="material-symbols-outlined">thumb_up</i>310
+            </div>
+            <div>
+              <a href="." class="card__link">View Article</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </article>
+    <aside>
+      
+      <ul>
+        <li>
+          <p><strong>Page by:</strong></p>
+          <p><span class="link" onmouseenter="displayImg('./Imagenes/mario.png', this);" onmouseout="removeImg();">Gastón</span></p>
+        </li>
+      </ul>
+    </aside>
+    <footer>
+      <p>Copyright 2022 The Fog Wall</p>
+    </footer>
+  </div>
+</body>
+</html>
